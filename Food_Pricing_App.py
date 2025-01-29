@@ -13,9 +13,9 @@ name = (input("Please enter your name: "))
 weight = float(input("Please enter the weight of food in pounds: "))
 
 #Pricing groups
-if 0 <= weight <= 2:
+if 0 <= weight < 2:
     price = 16.99
-elif 2 < weight <= 3.7:
+elif 2 <= weight <= 3.7:
     price = 21.99
 elif 3.7 < weight <= 4.4:
     price = 28.75
